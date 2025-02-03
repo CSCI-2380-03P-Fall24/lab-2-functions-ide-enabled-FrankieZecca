@@ -31,7 +31,7 @@ int locateSmallest(int array[], int start, int end){
 // function: Search in the array from given start to end index and replace the given target value with 1000
 void replaceVariable(int array[],int target, int start, int end) {
 	for(int i = start; i <= end; i++){
-		if(array{i} == target){
+		if(array[i] == target){
 			array[i] = 1000;
 		}
 	}
@@ -68,7 +68,7 @@ int sumOdds(int array[], int start, int end){
 	int sum = 0;
 	for(int i = start; i <= end; i++){
 		if (array[i] % 2 != 0){
-			sum += array[i]
+			sum += array[i];
 		}
 	}
 	return sum;
